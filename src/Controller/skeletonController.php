@@ -13,8 +13,6 @@ class skeletonController extends AbstractController
      */
     public function index()
     {
-        return new JsonResponse([
-            'data' => 'success'
-        ]);
+        return $this->render('tlc.html.twig');
     }
 }
